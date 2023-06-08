@@ -1,27 +1,27 @@
 from tkinter import *
 import random
 
-def next_turn(row, column): #defining a function to alternate turns between the players of the game.
+def next_turn(row, column): #defining a function to alternate turns between the players of the game
 
-    global player #getting access to player
+    global player #getting access to the player variable
 
-    if buttons[row][column]['text'] == "" and check_winner() is False: #checking if buttons are empty, so that can be filled in the game.
+    if buttons[row][column]['text'] == "" and check_winner() is False: #checking if button spaces are empty so that they can be filled in the game
 
         if player == players[0]: #first player as player[0]
 
-            buttons[row][column]['text'] = player #taking input from player[0] for the button.
+            buttons[row][column]['text'] = player #taking input from player[0] for the button space available
 
-            if check_winner() is False: #checking if there is a winner after a button has been filled and if not then switches players.
+            if check_winner() is False: #checking if there is a winner after a button space has been filled and if not then switches players
                 player = players[1] #switches turn from player[0] to player[1]
-                label.config(text=(players[1]+" Turn")) #creating a label to indicate whose turn it is in the game.
+                label.config(text=(players[1]+" Turn")) #creating a label that indicates whose turn is it in the game
 
-            elif check_winner() is True: #checking if there is a winner after a button has been filled
-                label.config(text=(players[0]+" Wins :)")) #creating a label to indicate which player won the game.
+            elif check_winner() is True: #checking if there is a winner after a button space has been filled
+                label.config(text=(players[0]+" Wins :)")) #creating a label that indicates which player won the game
 
             elif check_winner() == "Tie": #checking if there is a tie
-                label.config(text="It's a Tie :(") #creating a label to display the status of the game.
+                label.config(text="It's a Tie :(") #creating a label to display the current status of the game
 
-        else: #if it is not the player[0] turn then it is player[1] turn.
+        else: #condition: if it is not the player[0] turn then it is player[1] turn
 
             buttons[row][column]['text'] = player #taking input from player[1] for the button.
 
