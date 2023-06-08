@@ -26,14 +26,15 @@ This is a simple implementation of the Tic Tac Toe game using Python and the Tki
    ```bash
    pip install tk
    ```
-4. Run the game:
+   
+3. Run the game:
    - In the terminal or command prompt, enter the following command to start the game:
 
      ```bash
      python tic_tac_toe.py
      ```
 
-5.  The game window will appear. 
+4.  The game window will appear. 
    - You can use the mouse to navigate and click on the start button to start playing the game.
    - The game window will display a 3x3 grid representing the Tic Tac Toe game board.
    - Two players will take turns playing the game. The first player is randomly selected at the beginning of each new game.
