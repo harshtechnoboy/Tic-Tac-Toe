@@ -41,3 +41,6 @@ This is a simple implementation of the Tic Tac Toe game using Python and the Tki
    - You can close the game window at any time to exit the game.
 
 Enjoy playing Tic Tac Toe!
+
+License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for personal and commercial purposes.
