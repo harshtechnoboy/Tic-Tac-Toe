@@ -15,13 +15,17 @@ This is a simple implementation of the Tic Tac Toe game using Python and the Tki
 
 ## How to Run
 
-1. Clone the repository or download the source code as a ZIP file and extract it to your desired location.
+1. Clone the repository to your local machine.
 
-2. Open a terminal or command prompt and navigate to the project directory.
+   ```bash
+   git clone https://github.com/your-username/tic-tac-toe.git
+   ```
 
-3. Install the required dependencies:
-   - Tkinter: Tkinter is a standard Python library for creating GUI applications. It is usually included with Python by default, so you don't need to install anything additional.
+2. Install the required dependencies. This application requires Python 3 and the Tkinter library.
 
+   ```bash
+   pip install tk
+   ```
 4. Run the game:
    - In the terminal or command prompt, enter the following command to start the game:
 
@@ -29,9 +33,8 @@ This is a simple implementation of the Tic Tac Toe game using Python and the Tki
      python tic_tac_toe.py
      ```
 
-     The game window will appear.
+5.  The game window will appear. You can use the mouse to click on the start button and start playing.
 
-5. Gameplay:
    - The game window will display a 3x3 grid representing the Tic Tac Toe game board.
    - Two players will take turns playing the game. The first player is randomly selected at the beginning of each new game.
    - To make a move, click on an empty square on the game board. The player's symbol (X or O) will be placed in that square.
@@ -41,6 +44,10 @@ This is a simple implementation of the Tic Tac Toe game using Python and the Tki
    - You can close the game window at any time to exit the game.
 
 Enjoy playing Tic Tac Toe!
+
+## Contributing
+
+Contributions to the Tic Tac Toe game are welcome. If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
 
 ## License
 
