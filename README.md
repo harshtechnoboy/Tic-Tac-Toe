@@ -33,8 +33,8 @@ This is a simple implementation of the Tic Tac Toe game using Python and the Tki
      python tic_tac_toe.py
      ```
 
-5.  The game window will appear. You can use the mouse to click on the start button and start playing.
-
+5.  The game window will appear. 
+   - You can use the mouse to navigate and click on the start button to start playing the game.
    - The game window will display a 3x3 grid representing the Tic Tac Toe game board.
    - Two players will take turns playing the game. The first player is randomly selected at the beginning of each new game.
    - To make a move, click on an empty square on the game board. The player's symbol (X or O) will be placed in that square.
